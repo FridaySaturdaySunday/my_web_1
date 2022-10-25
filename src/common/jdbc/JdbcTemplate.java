@@ -16,9 +16,9 @@ public class JdbcTemplate {
 					"scott", 
 					"TIGER"); 
 			if(conn != null) {
-				System.out.println("DB 연결 성공");
+				System.out.println("===== DB 연결 성공 =====");
 			} else {
-				System.out.println("DB 연결 실패 - conn null");
+				System.out.println("===== DB 연결 실패 =====");
 			}
 		} catch (ClassNotFoundException e) {
 			System.out.println("===== ojdbc6.jar 드라이버 찾지 못함 =====");
